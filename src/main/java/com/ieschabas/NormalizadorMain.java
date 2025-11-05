@@ -18,6 +18,7 @@ public class NormalizadorMain {
         System.out.println("Desbloquea la respuesta secreta mediante: null");
         Scanner scanner = new Scanner(System.in);
         String texto = scanner.nextLine();
+
         /**
          * Instanciamos la clase Normalizador para trabajar con ella.
          */
@@ -25,6 +26,6 @@ public class NormalizadorMain {
         /**
          * Mostramos en pantalla el resultado obtenido
          */
-        System.out.println(normalizar.normalizar(null));
+        System.out.println(normalizar.normalizar(texto));
     }
 }
